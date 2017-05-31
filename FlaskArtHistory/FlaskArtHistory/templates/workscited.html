@@ -4,6 +4,9 @@
 
 
 <p>
+    {% for work in works %}
+    <li><a href="{{ work.url }}">{{ work.name}}</a></li>
+    {% endfor %}
 </p>
 
 {% endblock %}
