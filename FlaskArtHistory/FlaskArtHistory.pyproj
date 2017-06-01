@@ -27,12 +27,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FlaskArtHistory\static\model\links.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="FlaskArtHistory\__init__.py" />
     <Compile Include="FlaskArtHistory\views.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FlaskArtHistory\" />
+    <Folder Include="FlaskArtHistory\static\model\" />
     <Folder Include="FlaskArtHistory\static\" />
     <Folder Include="FlaskArtHistory\static\content\" />
     <Folder Include="FlaskArtHistory\static\fonts\" />
@@ -40,6 +44,7 @@
     <Folder Include="FlaskArtHistory\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FlaskArtHistory\templates\history.html" />
     <Content Include="FlaskArtHistory\templates\workscited.html" />
     <Content Include="requirements.txt" />
     <Content Include="FlaskArtHistory\static\content\bootstrap.css" />
