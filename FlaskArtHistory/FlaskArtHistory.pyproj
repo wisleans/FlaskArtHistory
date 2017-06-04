@@ -34,6 +34,7 @@
     <Compile Include="runserver.py" />
     <Compile Include="FlaskArtHistory\__init__.py" />
     <Compile Include="FlaskArtHistory\views.py" />
+    <Compile Include="virtualenv_proxy.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FlaskArtHistory\" />
@@ -45,6 +46,8 @@
     <Folder Include="FlaskArtHistory\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="web.3.4.config" />
+    <None Include="web.2.7.config" />
     <None Include="arthistory - Web Deploy.pubxml" />
     <None Include="ArtHistory1 - Web Deploy.pubxml" />
     <Content Include="FlaskArtHistory\static\content\cnd_day.jpg" />
