@@ -3,6 +3,7 @@ native_encoding
 XML_PARAM_ENTITY_PARSING_ALWAYS
 ErrorString
 features
+expat_CAPI
 XMLParserType
 ParserCreate
 XML_PARAM_ENTITY_PARSING_UNLESS_STANDALONE
@@ -11,5 +12,4 @@ EXPAT_VERSION
 ExpatError
 XML_PARAM_ENTITY_PARSING_NEVER
 errors
-expat_CAPI
 version_info
