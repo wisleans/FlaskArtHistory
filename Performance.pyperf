@@ -4,4 +4,9 @@
     <TargetProject>a0066257-907c-47c2-a5f7-a03ac0c62328</TargetProject>
     <FriendlyName>FlaskArtHistory</FriendlyName>
   </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\wisle\AppData\Local\Temp\Performance_20170604.vsp</Filename>
+    </Report>
+  </Reports>
 </ProfilingTarget>

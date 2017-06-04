@@ -261,3 +261,4 @@ __pycache__/
 *.pyc
 /FlaskArtHistory/ArtHistory1 - Web Deploy.pubxml
 *.pubxml
+/FlaskArtHistory/env
