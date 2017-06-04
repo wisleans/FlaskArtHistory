@@ -44,6 +44,8 @@
     <Folder Include="FlaskArtHistory\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="arthistory - Web Deploy.pubxml" />
+    <None Include="ArtHistory1 - Web Deploy.pubxml" />
     <Content Include="FlaskArtHistory\templates\history.html" />
     <Content Include="FlaskArtHistory\templates\workscited.html" />
     <Content Include="requirements.txt" />
