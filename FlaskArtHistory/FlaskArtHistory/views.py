@@ -17,20 +17,18 @@ linklist = links()
 @app.route('/home')
 def home():
     """Renders the home page."""
-    linklist.add_new_arrival("name","url")
     return render_template(
         'index.html',
-        title='Home Page',
+        title='Cathedral of Notre Dame',
         year=datetime.now().year,
     )
 
 @app.route('/history')
 def history():
     """Renders the home page."""
-    linklist.add_new_arrival("name","url")
     return render_template(
         'history.html',
-        title='History'
+        title='History of Construction'
     )
 
 
@@ -57,4 +55,5 @@ def about():
 
 @app.route('/workscited')
 def workscited():
+    linklist.add_new_arrival("name","url")
     return render_template('workscited.html')

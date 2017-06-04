@@ -5,7 +5,7 @@
     @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
     * {
-        pading: 0;
+        padding: 0;
         margin: 0;
         font-family: "Lato", sans-serif;
         position: relative;
@@ -63,6 +63,13 @@
         font-family: serif;
     }
 
+    .timeline .column .description ul li {
+        font-size: 13px;
+        line-height: 20px;
+        margin-left: 20px;
+        font-family: serif;
+    }
+
     .timeline .column .description {
         border-left: 1px solid #000;
     }
@@ -84,17 +91,30 @@
         font-family: serif;
         text-align: right;
     }
+    ul {
+        margin: 0;
+    }
+    ul.dashed {
+        list-style-type: none;
+    }
+    ul.dashed > li {
+        text-indent: -5px;
+    }
+    ul.dashed > li:before {
+        content: "-";
+        text-indent: -5px;
+    }
 </style>
 <h2>{{ title }}.</h2>
 <h3>{{ message }}</h3>
 <div class="row">
     <img class="img-responsive" src="../static/content/cnd_night.jpg"/>
 </div>
-<!-- Thanks! https://codepen.io/knyttneve/pen/bgvmma -->
+<!-- Thanks! https://codepen.io/vysocina/pen/jyYEjp -->
 <div class="row">
     <div class="main">
         <h1>Cathedral Of<br>Notre Dame</h1>
-        <p>Všetko od roku 1867 až po rok 2003. História, postupy, vanálezy...</p>
+        <p>History of more than 800 years of Cathedral of Notre Dame...</p>
     </div>
 
     <div class="timeline">
@@ -134,49 +154,200 @@
                 <h2> Renewal of the Stained <br> Glass Windows of the Nave </h2>
             </div>
             <div class="description">
-                <p> The culmination of 30 years of intense debates on the renewal of the stained glass windows of the nave in lieu of the grisailles of the nineteenth. It is ultimately the master glassmaker Jacques the Chevallier who was chosen to achieve these canopies on the principle of grisailles figurative and lively colours, which corresponded to a State and a bright atmosphere as they had been in the 13th century. </p>
+                <p> The colmination of 30 years of intense debates on the renewal of the stained glass windows of the nave in lieu of the grisailles of the nineteenth. It is ultimately the master glassmaker Jacques the Chevallier who was chosen to achieve these canopies on the principle of grisailles figurative and lively culours, which corresponded to a State and a bright atmosphere as they had been in the 13th century. </p>
             </div>
         </div>
 
         <div class="column">
             <div class="title">
-                <h1> 1972 <!-- – 1978 --> </h1>
-                <h2> ROBERT M. SALTER: <br> THE VERY HIGH SPEED TRANSIT SYSTEM </h2>
+                <h1> 1864 <!-- – 1978 --> </h1>
+                <h2> the dedication of the Cathedral by  <br> Bishop Darboy </h2>
             </div>
             <div class="description">
-                <p> Jednalo sa o víziu podzemnej tunelovej prepravy obrovskou rýchlosťou,  až 16000 km/h. Technológiu nazval "plávanie po magnetickej dráhe" a prepravný modul "gondolou".Za kľúčové považoval minimalizovanie energie nutnej na prevádzku. Preto navrhol vytvoriť v tuneli atmosféru, aká panuje v maximálnej nadmorskej výške, v ktorej lietajú dopravné lietadlá. Tým by sa minimalizoval odpor vzduchu. Aby ešte ušetril ďalšiu energiu, potreboval eliminovať trenie. Riešením boli „elektromagnetické lôžka. </p>
+                <p> On May 31, 1864, will be the dedication of the Cathedral by Bishop Darboy, Archbishop of Paris. </p>
             </div>
         </div>
 
         <div class="column">
             <div class="title">
-                <h1> 1974 <!-- - 2009 --> </h1>
+                <h1> 1857 <!-- - 2009 --> </h1>
                 <h2> SWISSMETRO </h2>
             </div>
             <div class="description">
-                <p> Swissmetro bol/je švajčiarsky vactrain projekt cez 100 km dlhý nízkotlakový tunel. Pomocou lineárnych elektromotorov mala rýchlosť súpravy presahovať 520 km/h. Na rozdiel od iných svetových vactrain projektov, plánovali Švajčiari vybudovať tunel pre štandardne veľké vlakové súpravy. Tunel teda musel mať priemer 5 až 6 m. Iniciátorom projektu bol Rodolphe Nieth, ktorý pracoval ako inžinier pre Švajčiarske spolkové dráhy. Projekt bol oficiálne ukončený v roku 2009. </p>
+                <p>
+                    The restoration project is entrusted to two architects: Eugène Viullet-le-Duc and Jean-Baptiste Lassus. In 1857, the death of Lassus leaves Viullet-le-Duc, one contractor.
+                </p>
+                <p>
+                    Restore a building, is not maintaining it, fix it, or do it again, is to restore a full State that may have never existed at any given time. (Viullet-le-Duc)
+                </p>
+                <p>This is how began this great campaign of restoration, Assistant sometimes changes of the general architecture, the main areas are:</p>
+                <ul class="dashed">
+                    <li>reconstruction of the arrow </li>
+                    <li>the return of the sculptures (15 sculptors, including Adulphe Geoffroy-Dechaume, will occur)</li>
+                    <li>rise of the new sacristy</li>
+                    <li>back in place of a new glass by appealing to a large master glassmakers (Alfred Gérente, Louis Steinhel, Antoine Husson, Marshal of Metz, Didron groin)</li>
+                    <li>to the central portal restoration of the State prior to the work of Soufflot</li>
+                    <li>reconstruction of a part Treasury and furniture</li>
+                    <li>wall paintings in the side chapels</li>
+                    <li>complete renovation of the big organ</li>
+                </ul>
             </div>
         </div>
 
         <div class="column">
             <div class="title">
-                <h1> 1997 </h1>
-                <h2> DARYL OSTER: <br> EVACUATED TUBE TRANSPORT TECHNOLOGIES (ET3) </h2>
+                <h1> 1844 </h1>
+                <h2> DARYL OSTER: <br> EVACUATED TUBE TRANSPORT TECHNOlOGIES (ET3) </h2>
             </div>
             <div class="description">
-                <p> Opäť sa jedná o nízkotlakový potrubný systém, v ktorom sa pohybuje transportná kapsula, za pomoci lineárnych elektromotorov a magnetickej levitácie (maglev). Tzn., že kapsula nemusí mať žiadne pohyblivé alebo elektricky aktivované komponenty – pasívne supravodiče umožňujú kapsule vznášať sa v trubici, pričom vírivé prúdy indukované vo vodivých materiáloch umožňujú riadenie kapsuly. Na jej rozbeh by sa z veľkej časti využívala energia, ktorá vzniká pri brzdení (rekuperácia). </p>
+                <p> the Government of King Louis-Philippe 1st decreed the restoration of the Cathedral of Paris and the construction of a sacristy. </p>
             </div>
         </div>
 
         <div class="column">
             <div class="title">
-                <h1> 2003 </h1>
+                <h1> 1831 </h1>
                 <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
             </div>
             <div class="description">
-                <p> Tubeway podobne ako Hyperloop využíva systém transportného potrubia. Vo vnútri transportného potrubia sa pohybuje kapsula pomocou pneumatického pohonu. Kompresor zabudovaný v kapsule nasáva vzduch z prednej časti kapsuly, ktorý stlačí a uvoľní zo zadnej časti kapsuly. Kapsula v potrubí nelevituje, pohybuje sa pomocou kolies. Jej rýchlosť sa má pohybovať od 40 do 350 km/h. Tubeway je však stále len v rovine teoretickej a experimentálnej práce. </p>
+                <p>  Victor Hugo published his novel Notre Dame de Paris, which will be a huge success. </p>
             </div>
         </div>
+        <!---->
+        <div class="column">
+            <div class="title">
+                <h1> 1801-1802 </h1>
+                <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
+            </div>
+            <div class="description">
+                <p>  In the early 19th century, the context is new: a new concordat was signed in July 1801, and Notre Dame went to Roman Cathulic worship on April 18, 1802. </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">
+                <h1> 17th - 18th Centuries </h1>
+                <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
+            </div>
+            <div class="description">
+                <p>  Redevelopment under the direction of Robert de Cotte of the sanctuary and the choir to perform the Vow of Louis XIII.</p>
+                <ul class="dashed">
+                    <li>Restoration of the Rose Sud.</li>
+                </ul>
+
+                <p>  Replacement of stained glass windows of the 12th and the 13th century by white windows in the middle of the 18th century by the brothers of the uld.</p>  
+                <p>Work of the architect Soufflot:</p>
+                <ul class="dashed">
+                    <li>new sacristy</li>
+                    <li>Redevelopment of the Central portal.</li>
+                </ul>
+                <br/>
+                <p>During the revulutionary period:</p>
+                <ul class="dashed">
+                    <li>Disassembly of the arrow from the 13th century</li>
+                    <li>Destruction of the 28 statues of Kings of the Gallery of Kings</li>
+                    <li>Destruction of all statues of gates with the exception of the Virgin of the pier of the Portal of the cloister.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">
+                <h1> Late 13th - Early 14th Century </h1>
+                <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
+            </div>
+            <div class="description">
+                <p> he names of the contractors are known: Jean de Chelles, Pierre Montreuil, Pierre de Chelles, Jean Ravy, the Blue Jean
+                    <br/>
+                    Enlargement of the arms of the transepts: brace North)Portal of the cloister and North rose) and South brace)Portal Saint-etienne and South rose).
+                    <br />
+
+                    Development of the chapels the choir and the nightstand between the foothills.
+                    <br />
+
+                    Implementation of large flying buttresses the choir and the bedside of 15-meter fly.
+                    <br />
+
+                    Erection of the jube and a stone fence painted around the choir and sanctuary.</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">
+                <h1> 1225-1250 </h1>
+                <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
+            </div>
+            <div class="description">
+                <p> High Gallery and the two towers on the façade, modification and expansion of high windows and development of side chapels of the nave between the abutments of the flying buttresses (4th contractor). </p>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="title">
+                <h1>1190-1225 </h1>
+                <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
+            </div>
+            <div class="description">
+                <p> building the Foundation of the façade and first two bays of the navefitting of the two bays to the front up to the Gallery of Kings. (3rd contractor). </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">
+                <h1> 1182-1190 </h1>
+                <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
+            </div>
+            <div class="description">
+                <p> construction of last three spans of the nave, the aisles and forums. (2nd prime contractor). </p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">
+                <h1> 1163-1182 </h1>
+                <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
+            </div>
+            <div class="description">
+                <p> construction of the Choir and his double ambulatory. The high altar of the chorus is dedicated May 19, 1182 by Henri de Château-Marçay, papal legate, assisted by the Bishop Maurice de Sully. (1 prime contractor).</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="title">
+                <h1> 1163  </h1>
+                <h2> MICHAEL THALHAMMER: <br> TUBEWAY </h2>
+            </div>
+            <div class="description">
+                <p> the date traditionally used for the laying of the first stone of Notre Dame in the presence of Pope Alexander III. </p>
+                <p>The new building is part of the momentum of the new art that will be called Gothic (or ogival art). Sites already preceded him in this movement:</p>
+                <ul class="dashed">
+                    <li>in 1140 with the consecration of the Abbey of Saint-Denis built by the Abbot Suger</li>
+                    <li>1150: Noyon</li>
+                    <li>1153: Senlis</li>
+                    <li>1160: Laon, sense</li>
+                </ul>
+                <br/>
+                <p>The first prime contractor anonymous takes advantage of a plan double aisle and transept salient (choices that belonged to the previous St. Stephen's Cathedral), rising to four storeys supported by the forumslarge sexpartite vaults at 32 metres 50, predominance of the horizontal line, original sulution for the vaulting of the rotating part of the ambulatory, alternation of batteries 'strong '. and batteries 'weak '. between the first and the second aisle.</p>
+            </div>
+        </div>
+    <div class="column">
+        <div class="title">
+            <h1> 1160 </h1>
+            <h2>October 12, 1160 <br> Maurice of Sully is elected Bishop of Paris. </h2>
+        </div>
+        <div class="description">
+            <p>Parisin a context of strong population growth and economic dynamism, affirms the significance of his role in the Kingdom of France as:</p>
+            <ul class="dashed">
+                <li>political capital of the Capetian kings including 1 Philippe (1060-1108), Louis VI the FAT (1108-1137) and Louis VII the young (1137-1180)</li>
+                <li>economic centre with the development on the right bank of the Seine to a city of craftsmen and merchants around the market Hall.</li>
+                <li>a place of intellectual training : international radiation the cathedral school.</li>
+            </ul>
+            <br/>
+            <p>Maurice of Sully is Bishop of Paris from 1160 to 1196. Since his election, he offers a theological, spiritual and pastoral response to the transformation of his diocese by the reconstruction of a Cathedral church dedicated to the Virgin Mary (Notre Dame) and consulidating the functions of the Church the Bishop, Church of the canons and Baptistery. This project is at the center ofa huge urban project :</p>
+            <ul class="dashed">
+                <li>demulition the former Saint-etienne and building of our Lady</li>
+                <li>development of a Parvis intended as an intermediate space between the secular world and the world of faith: place of catechesis sculpted by teaching to the portals</li>
+                <li>construction of the new-Notre-Dame Street : full path of 6 meters wide allowing easy access to the Cathedral for a large population; It will serve as a framework for the course of the centuries in large processions</li>
+                <li>reconstruction of the episcopal Palace and the Hôtel-Dieu.</li>
+            </ul>
+        </div>
+    </div>
+    
+
     </div>
 
 </div>

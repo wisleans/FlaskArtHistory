@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>a0066257-907c-47c2-a5f7-a03ac0c62328</TargetProject>
+    <FriendlyName>FlaskArtHistory</FriendlyName>
+  </ProjectTarget>
+</ProfilingTarget>

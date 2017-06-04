@@ -46,6 +46,10 @@
   <ItemGroup>
     <None Include="arthistory - Web Deploy.pubxml" />
     <None Include="ArtHistory1 - Web Deploy.pubxml" />
+    <Content Include="FlaskArtHistory\static\content\cnd_day.jpg" />
+    <Content Include="FlaskArtHistory\static\content\cnd_night.jpg" />
+    <Content Include="FlaskArtHistory\static\content\main.jpg" />
+    <Content Include="FlaskArtHistory\static\content\notre-dame.jpg" />
     <Content Include="FlaskArtHistory\templates\history.html" />
     <Content Include="FlaskArtHistory\templates\workscited.html" />
     <Content Include="requirements.txt" />
